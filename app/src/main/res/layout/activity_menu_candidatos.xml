@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Usuarios.Candidatos.activity_menu_candidatos">
+
+    <ImageView
+        android:id="@+id/imageViewTituloMenuCand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/menucandadidatos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGestionCv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="Gestión de CV"
+            android:textColor="#000000"
+            android:background="@drawable/boton_nuevo"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBusquedaEmpleo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="Búsqueda de empleo"
+            android:textColor="#000000"
+            android:background="@drawable/boton_nuevo"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGestCandid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="Gestión de candidaturas"
+            android:textColor="#000000"
+            android:background="@drawable/boton_nuevo"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGestPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="Gestionar Perfil"
+            android:textColor="#000000"
+            android:background="@drawable/boton_nuevo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconectarse"
+            android:textColor="#000000"
+            android:background="@drawable/boton_desconectar"
+            />
+    </LinearLayout>
+
+</LinearLayout>

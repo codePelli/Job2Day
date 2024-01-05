@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585114181254",
+    "project_id": "job2daympl",
+    "storage_bucket": "job2daympl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585114181254:android:400294a601ad65fe933b07",
+        "android_client_info": {
+          "package_name": "pack.job2day"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585114181254-jgnc9n9is0ru5c7hk7o06mf654krkcm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFFNvhzfyQAuv4WpFT69iGcdVrZEckwFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585114181254-jgnc9n9is0ru5c7hk7o06mf654krkcm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
